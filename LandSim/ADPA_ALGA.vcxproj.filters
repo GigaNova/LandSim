@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Generators">
+      <UniqueIdentifier>{f69a577f-e37b-4b47-a629-eecb770e6689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2767c9ee-a1f5-40eb-8380-85dc9e1920a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{821e7911-9146-4ad9-8c88-dc12dbec7579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Dynamic">
+      <UniqueIdentifier>{3044747f-b0c5-4cd4-9310-69a49c636fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Dynamic\Explosion">
+      <UniqueIdentifier>{629d2183-b035-4a3d-ab07-eba184932c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles\Terrain">
+      <UniqueIdentifier>{7df43cf3-71f2-4a54-ad27-a53c6b3ca8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{e724d865-2f27-49b9-9b75-e0c8e9ffa24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Country">
+      <UniqueIdentifier>{18fc0b08-1a0b-449d-a5df-71207fd5293e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WorldGenerator.cpp">
+      <Filter>Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="ADPA_ALGA.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Seeker.cpp">
+      <Filter>Particles\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Particles\Dynamic\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Trail.cpp">
+      <Filter>Particles\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionAftermath.cpp">
+      <Filter>Particles\Dynamic\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Grass.cpp">
+      <Filter>Particles\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Ocean.cpp">
+      <Filter>Particles\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Sand.cpp">
+      <Filter>Particles\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ScorchedEarth.cpp">
+      <Filter>Particles\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Country.cpp">
+      <Filter>Country</Filter>
+    </ClCompile>
+    <ClCompile Include="Territory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WorldGenerator.h">
+      <Filter>Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Seeker.h">
+      <Filter>Particles\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Particles\Dynamic\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Trail.h">
+      <Filter>Particles\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionAftermath.h">
+      <Filter>Particles\Dynamic\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>Particles\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Ocean.h">
+      <Filter>Particles\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Particles\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Sand.h">
+      <Filter>Particles\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorchedEarth.h">
+      <Filter>Particles\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Country.h">
+      <Filter>Country</Filter>
+    </ClInclude>
+    <ClInclude Include="Territory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
